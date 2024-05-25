@@ -53,9 +53,9 @@ const Contact = () => {
             <div className="contact__card">
               <i className="bx bxl-telegram contact__card-icon"></i>
               <h3 className="contact__card-title">Telegram</h3>
-              <span className="contact__card-data">
+              {/* <span className="contact__card-data">
                 https://t.me/alikhanov13
-              </span>
+              </span> */}
               <br />
               <a href="https://t.me/alikhanov13" className="contact__button">
                 Напиши мне{" "}
@@ -65,9 +65,9 @@ const Contact = () => {
             <div className="contact__card">
               <i className="bx bxl-instagram contact__card-icon"></i>
               <h3 className="contact__card-title">Instagram</h3>
-              <span className="contact__card-data">
+              {/* <span className="contact__card-data">
                 https://www.instagram.com/alikhanov.13/
-              </span>
+              </span> */}
               <br />
 
               <a

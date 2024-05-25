@@ -65,12 +65,15 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
+      <p className="shukur">١٣.شكر الله </p>
       <h3 className="home__subtitle">Веб разработчик</h3>
+
       <p className="home__description">
         Меня зовут Шукурулло, и веб-разработка - моя страсть и преданность.
         {/* Моя цель - не просто создавать веб-сайты, а делать их интерактивными и
           запоминающимися для пользователей. */}
       </p>
+
       <a href="#contact" className="button button--flex">
         Прислать приветствие
         <svg
