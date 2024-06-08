@@ -92,6 +92,12 @@
 .contact__form-area > textarea {
   resize: none;
 }
+.contact__phone-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
