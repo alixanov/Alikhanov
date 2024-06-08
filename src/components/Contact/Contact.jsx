@@ -87,7 +87,7 @@ const Contact = () => {
 
               {/* <br /> */}
 
-              <a href="tel::+99894071313" className="contact__button">
+              <a href="tel::+998940751313" className="contact__button">
                 +998940751313
                 <i className="bx bxl-right-arrow-alt contact__button-icon"></i>
               </a>
