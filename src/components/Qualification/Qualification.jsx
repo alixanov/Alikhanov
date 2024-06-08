@@ -87,12 +87,10 @@ const Qualification = () => {
 
               <div>
                 <h3 className="qualification__title">Веб-разработчик</h3>
-                <span className="qualification__subtitle">
-                  Educational center ALGORITM
-                </span>
+                <span className="qualification__subtitle">Smart Brain</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2023-2024
+                  2024
                 </div>
               </div>
             </div>
@@ -145,7 +143,7 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">Интерфейс продукта</h3>
                 <span className="qualification__subtitle">
-                  Копмания SmartBrain
+                  Копмания Alixanov It-Group
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
@@ -169,7 +167,7 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">Веб-разработчик</h3>
                 <span className="qualification__subtitle">
-                  Копмания SmartBrain
+                  Копмания Alixanov It-Group
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
