@@ -8,8 +8,39 @@ import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
 
 const Portfolio = () => {
   const slider = [
+
     {
+
       id: 1,
+      projectPortfolio: require("../../assets/porject__crud.png"),
+      namePortfolio: "Crud",
+      descriptionPortfolio:
+        "CRUD (Create, Read, Update, Delete) проект — это программное обеспечение, которое выполняет основные операции с данными: создание, чтение, обновление и удаление. ",
+      linkPortfolio: "https://crud13.vercel.app/",
+    },
+
+    {
+
+      id: 2,
+      projectPortfolio: require("../../assets/aptekeruz___project.png"),
+      namePortfolio: "Аптекер",
+      descriptionPortfolio:
+        "Сайт для автоматизации аптек предназначен для упрощения и оптимизации работы аптечных учреждений. ",
+      linkPortfolio: "https://aptekeruz.vercel.app/",
+    },
+
+    {
+
+      id: 3,
+      projectPortfolio: require("../../assets/weather.png"),
+      namePortfolio: "Weather",
+      descriptionPortfolio:
+        "Проект представляет собой веб-сайт, который предоставляет пользователям актуальную информацию о погоде в различных городах. ",
+      linkPortfolio: "https://weather-13.vercel.app/",
+    },
+    {
+
+      id: 4,
       projectPortfolio: require("../../assets/project1.png"),
       namePortfolio: "NFT Marketplace",
       descriptionPortfolio:
@@ -17,7 +48,7 @@ const Portfolio = () => {
       linkPortfolio: "https://ntf-marketplace-13.netlify.app/",
     },
     {
-      id: 2,
+      id: 5,
       projectPortfolio: require("../../assets/project2.png"),
 
       namePortfolio: "Школа будущего",
@@ -26,18 +57,20 @@ const Portfolio = () => {
       linkPortfolio: "https://school-future-13.netlify.app/",
     },
     {
-      id: 3,
+      id: 6,
       projectPortfolio: require("../../assets/project3.png"),
       namePortfolio: "AutoStructure",
       descriptionPortfolio:
         "AutoStructure - ваш гид в мире информации и знаний об автомобильной индустрии. Исследуйте, учите и расширяйте свои знания с помощью нашего ресурса.",
       linkPortfolio: "https://autostructute-i13.vercel.app/",
     },
+
   ];
 
   useEffect(() => {
     AOS.init();
   }, []);
+
 
   return (
     <section className="portfolio section portfolio-container" id="portfolio">
@@ -102,7 +135,7 @@ const Portfolio = () => {
               <SwiperSlide
                 className="portfolio__card"
                 key={id}
-                style={{ width: "200px"}}
+                style={{ width: "200px" }}
               >
                 <img src={projectPortfolio} alt="" className="portfolio__img" />
                 <div className="text-portfolio">
