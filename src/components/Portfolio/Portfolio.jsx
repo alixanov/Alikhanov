@@ -64,7 +64,14 @@ const Portfolio = () => {
         "AutoStructure - ваш гид в мире информации и знаний об автомобильной индустрии. Исследуйте, учите и расширяйте свои знания с помощью нашего ресурса.",
       linkPortfolio: "https://autostructute-i13.vercel.app/",
     },
-
+    {
+      id: 7,
+      projectPortfolio: require("../../assets/project7.png"),
+      namePortfolio: "Magazin",
+      descriptionPortfolio:
+        "Magazin - это онлайн-магазин электроники,для продажа смартфоны, ноутбуки, телевизоры, аудиотехнику и аксессуары " ,
+      linkPortfolio: "https://newshop-roan.vercel.app/",
+    },
   ];
 
   useEffect(() => {
