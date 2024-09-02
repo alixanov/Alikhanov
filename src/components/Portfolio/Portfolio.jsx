@@ -8,6 +8,15 @@ import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
 
 const Portfolio = () => {
   const slider = [
+    {
+
+      id: 0,
+      projectPortfolio: require("../../assets/project-0.png"),
+      namePortfolio: "Оптимизация магазина",
+      descriptionPortfolio:
+        "На основе собранных данных будут разработаны и внедрены стратегии для повышения продаж, снижения издержек и улучшения клиентского опыта",
+      linkPortfolio: "https://i-oziq-ovqat-frontend.vercel.app/",
+    },
 
     {
 
