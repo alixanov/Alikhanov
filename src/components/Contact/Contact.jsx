@@ -38,12 +38,12 @@ const Contact = () => {
               <i className="bx bx-mail-send contact__card-icon"> </i>
               <h3 className="contact__card-title">Почта</h3>
               <span className="contact__card-data">
-                alixonovshukurullo22@gmail.com
+                alixonovshukurullo13@gmail.com
               </span>
               <br />
 
               <a
-                href="mailto:alixonovshukurullo22@gmail.com"
+                href="mailto:alixonovshukurullo13@gmail.com"
                 className="contact__button"
               >
                 Напиши мне{" "}
