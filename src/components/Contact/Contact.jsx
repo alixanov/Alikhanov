@@ -9,8 +9,9 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm("service_oilw8jr", "template_bl0cdkv", form.current, "MzRtbMPNaHa3i8hiX");
-
+    emailjs.sendForm("service_oilw8jr", "template_bl0cdkv", form.current, {
+      publicKey: "5Fo15A4IfAa9KfDfYRj2H",
+    });
     e.target.reset();
   };
   useEffect(() => {
