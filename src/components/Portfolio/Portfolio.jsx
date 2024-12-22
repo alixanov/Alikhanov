@@ -14,30 +14,9 @@ const Portfolio = () => {
       projectPortfolio: require("../../assets/project-0.png"),
       namePortfolio: "Оптимизация магазина",
       descriptionPortfolio:
-        "На основе собранных данных будут разработаны и внедрены стратегии для повышения продаж, снижения издержек и улучшения клиентского опыта",
+        "для админа Логин: Admin - Пароль: Admin. ",
       linkPortfolio: "https://i-oziq-ovqat-frontend.vercel.app/",
     },
-
-    {
-
-      id: 1,
-      projectPortfolio: require("../../assets/porject__crud.png"),
-      namePortfolio: "Crud",
-      descriptionPortfolio:
-        "CRUD (Create, Read, Update, Delete) проект — это программное обеспечение, которое выполняет основные операции с данными: создание, чтение, обновление и удаление. ",
-      linkPortfolio: "https://crud13.vercel.app/",
-    },
-
-    {
-
-      id: 2,
-      projectPortfolio: require("../../assets/aptekeruz___project.png"),
-      namePortfolio: "Аптекер",
-      descriptionPortfolio:
-        "Сайт для автоматизации аптек предназначен для упрощения и оптимизации работы аптечных учреждений. ",
-      linkPortfolio: "https://aptekeruz.vercel.app/",
-    },
-
     {
 
       id: 3,
@@ -65,14 +44,7 @@ const Portfolio = () => {
         "Школа будущего - где образование вдохновляет инновации. Мы создаем пространство, где ученики развивают креативность, критическое мышление и технологическую грамотность для успешного будущего.",
       linkPortfolio: "https://school-future-13.netlify.app/",
     },
-    {
-      id: 6,
-      projectPortfolio: require("../../assets/project3.png"),
-      namePortfolio: "AutoStructure",
-      descriptionPortfolio:
-        "AutoStructure - ваш гид в мире информации и знаний об автомобильной индустрии. Исследуйте, учите и расширяйте свои знания с помощью нашего ресурса.",
-      linkPortfolio: "https://autostructute-i13.vercel.app/",
-    },
+
     {
       id: 7,
       projectPortfolio: require("../../assets/project7.png"),
