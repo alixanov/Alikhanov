@@ -33,7 +33,7 @@ const Portfolio = () => {
       namePortfolio: "NFT Marketplace",
       descriptionPortfolio:
         "NFT Marketplace - коллекционируйте редкие цифровые произведения искусства. Уникальные и неповторимые цифровые артефакты ждут вас здесь.",
-      linkPortfolio: "https://ntf-marketplace-13.netlify.app/",
+      linkPortfolio: "https://nft-marketplace-digital-collectibles.netlify.app/",
     },
     {
       id: 5,
