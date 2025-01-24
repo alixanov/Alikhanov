@@ -47,7 +47,7 @@ const Portfolio = () => {
       linkPortfolio: "https://school-future.netlify.app/",
     }
 
-
+,
     {
       id: 7,
       projectPortfolio: require("../../assets/project7.png"),
