@@ -23,10 +23,12 @@ const Portfolio = () => {
       projectPortfolio: require("../../assets/tempwise.png"),
       namePortfolio: "Temp Wise",
       descriptionPortfolio:
-        "Проект представляет собой веб-сайт, который предоставляет пользователям актуальную информацию о погоде в различных городах. ",
+        "Проект представляет собой веб-сайт, который предоставляет пользователям актуальную информацию о погоде в различных городах.",
       linkPortfolio: "https://tempwise.netlify.app/",
     },
     {
+
+
 
       id: 4,
       projectPortfolio: require("../../assets/project1.png"),
