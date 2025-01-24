@@ -14,7 +14,7 @@ const Portfolio = () => {
       projectPortfolio: require("../../assets/project-0.png"),
       namePortfolio: "Оптимизация магазина",
       descriptionPortfolio:
-        "для админа Логин: Admin - Пароль: Admin. ",
+        "Для админа: Логин — admin, Пароль — admin. Для продавца: Логин — user,Пароль — user.",
       linkPortfolio: "https://i-oziq-ovqat-frontend.vercel.app/",
     },
     {
