@@ -55,6 +55,9 @@ const Contact = () => {
         </div>
         <div className="contact__content">
           <h3 className="contact__title">Напишите мне свой проект</h3>
+
+          
+
           <form ref={form} onSubmit={handleSubmit} className="contact__form">
             <div className="contact__form-div">
               <label className="contact__form-tag" htmlFor="name">Имя</label>
@@ -81,6 +84,9 @@ const Contact = () => {
               </svg>
             </button>
           </form>
+          
+
+
         </div>
       </div>
     </section>
