@@ -23,7 +23,7 @@ const Portfolio = () => {
       projectPortfolio: project0,
       namePortfolio: "Оптимизация магазина",
       descriptionPortfolio: "Логин: admin, Пароль: admin. Логин продавца: user, Пароль: user.",
-      linkPortfolio: "https://i-oziq-ovqat-frontend.vercel.app/",
+      linkPortfolio: "https://i-ash-client.vercel.app/",
     },
     {
       id: 2,
