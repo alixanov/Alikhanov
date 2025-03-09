@@ -58,6 +58,14 @@ const Portfolio = () => {
       descriptionPortfolio: "Продажа уникальных игрушек с удобным интерфейсом и быстрой доставкой.",
       linkPortfolio: "https://www.13dokon.uz/",
     },
+    {
+      id: 7,
+      projectPortfolio: project9,
+      namePortfolio: "Otello",
+      descriptionPortfolio: "Otello - простой и удобный сервис для бронирования отелей, предоставляющий гибкие возможности поиска и выбора.",
+      linkPortfolio: "https://otello.vercel.app/",
+    }
+
   ];
 
   useEffect(() => {
