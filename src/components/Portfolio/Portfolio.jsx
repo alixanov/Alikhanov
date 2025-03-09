@@ -13,6 +13,8 @@ import project1 from "../../assets/project1.png";
 import project2 from "../../assets/project2.png";
 import project7 from "../../assets/project7.png";
 import project8 from "../../assets/project8.png";
+import project9 from "../../assets/project9.png";
+
 
 const Portfolio = () => {
   const slider = [
