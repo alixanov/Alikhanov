@@ -159,7 +159,7 @@ const Services = () => {
                   <i className="uil  uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     Дизайн интерфейса, который повышает конверсию и
-                    удовлетворенность клиентов<div className=""></div>
+                    удовлетворенность клиентов <span className="some-class"></span>
                   </p>
                 </li>
               </ul>
